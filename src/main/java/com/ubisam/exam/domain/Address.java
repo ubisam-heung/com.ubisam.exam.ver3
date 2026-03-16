@@ -1,5 +1,7 @@
 package com.ubisam.exam.domain;
 
+import org.springframework.data.annotation.Transient;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -18,5 +20,8 @@ public class Address {
   private String phone;
   private String name;
   private String address;
+
+  @Transient
+  private String keyword;
   
 }
