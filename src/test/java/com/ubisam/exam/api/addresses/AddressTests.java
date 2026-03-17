@@ -10,10 +10,8 @@ import static io.u2ware.common.docs.MockMvcRestDocs.print;
 import static io.u2ware.common.docs.MockMvcRestDocs.put;
 import static io.u2ware.common.docs.MockMvcRestDocs.result;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
